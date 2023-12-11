@@ -1,0 +1,13 @@
+{
+  "name": "developers-handbook",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "db:migrate": "knex migrate:latest",
+    "build": "mdbook build",
+    "serve": "mdbook serve",
+    "watch": "mdbook watch"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
