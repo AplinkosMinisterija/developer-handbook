@@ -1,4 +1,4 @@
-# Coding Standards
+****# Coding Standards
 
 ## Prettier and ESLint
 
@@ -41,9 +41,12 @@ the `Code security and analysis` settings, eliminating the need for defining cus
 
 ## Dependabot
 
-For streamlined management of dependency security updates, we employ Dependabot. Custom Dependabot rules are provided
-for each repository, automating the assignment of reviewers and the initiation of pull requests exclusively for security
-updates.
+For streamlined management of dependency security updates, we employ Dependabot.
+
+![Dependabot alerts example](images/dependabot-alerts.png)
+
+Custom Dependabot rules are provided for each repository, automating the assignment of reviewers and the initiation of
+pull requests exclusively for security updates.
 
 Example Dependabot rules (`.github/dependabot.yml`):
 
@@ -78,4 +81,3 @@ updates:
       - AplinkosMinisterija/biip-devops
 ```
 
-Your tip is greatly appreciated! If you have any further requests or questions, feel free to ask.
